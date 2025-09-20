@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt-to-JSON Enhancer",
+  "description": "Capture a prompt from the page and convert it into a structured JSON using Groq via a Python backend.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Prompt-to-JSON Enhancer"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

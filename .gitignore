@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.python-version
+.venv/
+*.log
+*.pid
+backend/.env
+.env.local
+.vscode/
+.DS_Store
+extension.crx
+extension.pem
