@@ -1,8 +1,10 @@
 import streamlit as st
 import requests
 import json
+import os
 
-API_URL = "http://localhost:8000/enhance"  
+API_URL = os.getenv("API_URL", "http://localhost:8000/enhance")
+
 
 st.set_page_config(page_title="Prompt-to-JSON Enhancer", layout="centered")
 
