@@ -19,6 +19,10 @@ The **Prompt-to-JSON Enhancer** is a versatile tool that converts **raw, plain-t
 
 ---
 
+## Live Demo
+* Try the app online without installation:
+* [Live Web App](https://prompt-to-json-enhancer.streamlit.app/)
+
 ## Setup & Installation
 
 1.  **Clone the Repository**
